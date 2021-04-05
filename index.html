@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/myIcons.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="grid-container">
@@ -23,20 +24,34 @@
     </div>
   </div>
   <div class="loginImage">
-    <h1>Login image</h1>
+    <div class="icons" id="icons"><br>
+      <i class="fas fa-seedling"></i>
+      <i class="fas fa-seedling" style="font-size:24px;"></i>
+      <i class="fas fa-seedling" style="font-size:36px;"></i>
+      <i class="fas fa-seedling" style="font-size:48px;;"></i>
+      <i class="fas fa-seedling" style="font-size:60px;;text-shadow:2px 2px 4px #000000;"></i>
+    </div><br>
+    <div class="quata" id="icons">
+      <blockquote cite="https://everydaypower.com/healthy-eating-quotes/"> “Your diet is a bank account. Good food
+        choices are good investments.” – Bethenny Frankel</blockquote>
+    </div>
+
+
   </div>
   <div class="loginForm">
-    <div class="userName">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-    </div>
-    <div class="password">
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+    <div class="loginInfo">
+      <div class="userName">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+      <div class="password">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
     </div>
     <div class="buttons">
       <button class="loginButton" type="submit">Login</button>
-      <button class="signUpButton" type="submit">SignUp</button>
+      <button class="signUpButton" type="submit">SignUp</button><br>
 
       <label class="checkBox">
         <input type="checkbox" checked="checked" name="remember"> Remember me
