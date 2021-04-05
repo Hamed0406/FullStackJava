@@ -1,4 +1,6 @@
 # FullStackJava
 
 
-## Web application for finding and sugession of recipites (Rest API and Html pages)
+## Web application for finding and sugession of recipites (RESTful API and Html pages)
+
+
