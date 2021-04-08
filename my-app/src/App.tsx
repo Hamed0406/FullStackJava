@@ -1,11 +1,12 @@
 
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Login moudel</h1>
+
+// put name of fonction in index.tsx bewteen { }
+export const App = () => {
+  return (  
+    <div>
+      <h1>First fonction</h1>
     </div>
-  );
+  )
 }
 
-export default App;
