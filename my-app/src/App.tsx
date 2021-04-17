@@ -1,12 +1,13 @@
-
-
+import {Routes} from './routes/Routes'
+import {Navigation} from './components/navigation/Navigation'
 
 // put name of fonction in index.tsx bewteen { }
 export const App = () => {
   return (  
-    <div>
-      <h1>First fonction</h1>
-    </div>
+   <Routes>
+     <Navigation/>
+     
+   </Routes>
   )
 }
 
