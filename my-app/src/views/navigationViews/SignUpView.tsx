@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function SignUpView() {
+export const SignUpView = () => {
     return (
         <div>
-            <h1>signup View</h1>
+            <h1>sign up</h1>
         </div>
     )
 }

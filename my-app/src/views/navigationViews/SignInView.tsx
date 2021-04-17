@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function News() {
+export const SignInView = () => {
     return (
         <div>
-            <h1>news view</h1>
+            <h1>Sign in view</h1>
         </div>
     )
 }

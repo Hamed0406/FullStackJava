@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function AboutUs() {
+export const AboutUs = () => {
     return (
         <div>
-            <h1>About us view </h1>
+            <h1>about us</h1>
         </div>
     )
 }

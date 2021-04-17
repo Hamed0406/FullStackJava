@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function LoginView() {
+export const NewsView = () => {
     return (
         <div>
-            <h1>Login view </h1>
+            <h1>news</h1>
         </div>
     )
 }
+
