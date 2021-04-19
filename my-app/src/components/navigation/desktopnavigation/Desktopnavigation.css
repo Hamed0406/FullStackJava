@@ -1,0 +1,16 @@
+.desktopNaigationWrapper {
+}
+
+span {
+    display: inline;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding:  5%;
+}
+.navigationLogo {
+    width: 7%;
+    height: 7%;
+    cursor: pointer;
+
+
+}
