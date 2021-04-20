@@ -1,21 +1,44 @@
 body {
     background-image:url(../../../shared/images/body_M.jpg);
+   
 
 }
 
 .desktopNaigationWrapper {
+    display: grid;
+    grid-template-columns:repeat(20,1fr) ;
+     
+  
+
+    
 }
 
-span {
+.singIn,.galleryButton,.newsButton,.signUpButton,.shopButton {
     display: inline;
     cursor: pointer;
     text-transform: uppercase;
-    padding:  5%;
+    padding:  2%;
 }
 .navigationLogo {
-    width: 7%;
-    height: 7%;
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;  
+    width: 80%;
+    height: 80%;
     cursor: pointer;
 
 
+}
+.singIn {
+    grid-column: 18/20;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+.otherLinks{
+    grid-column: 4/5;
+    justify-self: center;
+    align-self: center;
 }
