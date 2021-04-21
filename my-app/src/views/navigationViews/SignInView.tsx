@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import {useEffect} from 'react'
 
 export const SignInView = () => {
     const [userName, setUserName] = useState<String>('')
@@ -14,7 +13,7 @@ export const SignInView = () => {
             <span>Password</span>           
              <input  onChange={event=> setPassword(event.target.value)} /><br/>
 
-            <button onClick={() => setUserName('Random')} >Login</button>
+            <button onClick={() => setUserName('Login Sucessful ! ')} >Login</button>
         </div>
     )
 }
