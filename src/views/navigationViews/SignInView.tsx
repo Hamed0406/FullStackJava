@@ -11,7 +11,7 @@ export const SignInView = () => {
         setAuthenticatorUser(username)
 
         localStorage.setItem('username', authenticatorUser)
-        history.push(RouttingPath.shop)
+        history.push(RouttingPath.gallery)
 
     }
 
@@ -19,8 +19,8 @@ export const SignInView = () => {
         <div>
 
             <span>UserName : </span>
-            <input onChange={event => setAuthenticatorUser(event.target.value)} />
-            <button onClick={() => signin()}> sing in </button>
+            <input onChange={event => setUsername(event.target.value)} /> <br/>
+            <button onClick={() => signin()}> singin </button>
 
         </div>
     )
