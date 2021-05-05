@@ -6,6 +6,9 @@ import { SignInView} from '../views/navigationViews/SignInView'
 import { SignUpView} from '../views/navigationViews/SignUpView'
 import { NewsView} from '../views/navigationViews/NewsView'
 import { ShopView} from '../views/navigationViews/ShopView'
+import {SettingView} from '../views/profileDropDownView/SettingView'
+import {ProfileView} from '../views/profileDropDownView/ProfileView'
+
 import RouttingPath from './RouttingPath'
 
 
@@ -21,6 +24,8 @@ export const Routes = (props: { children?: React.ReactChild }) => {
             <Route exact path={RouttingPath.singUp} component={SignUpView} />
             <Route exact path={RouttingPath.news} component={NewsView} />
             <Route exact path={RouttingPath.shop} component={ShopView} />
+            <Route exact path={RouttingPath.settingView} component={SettingView} />
+            <Route exact path={RouttingPath.profileView} component={ProfileView} />
 
 
             <Route component={LoginView} />

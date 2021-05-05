@@ -15,7 +15,7 @@ export const Desktopnavigation = () => {
     {
         return  authenticatorUser
         ? <span className='authenticatorNavi'><Profile/></span>
-        : <span className='SigninButton' onClick={()=> history.push(RouttingPath.signIn)}>Sign in</span>
+        : <span className='singIn' onClick={()=> history.push(RouttingPath.signIn)}>SignIn</span>
 
     }
 
@@ -31,10 +31,9 @@ export const Desktopnavigation = () => {
             <span  className='newsButton' onClick={() => history.push(RouttingPath.news)}>news</span>
             <span className='shopButton' onClick={() => history.push(RouttingPath.shop)}>shop</span>
             <span className='galleryButton' onClick={() => history.push(RouttingPath.gallery)}>gallery</span>
+            {displayeOrSignin()}
 
             </div>
-            <span className='singIn' onClick={() => history.push(RouttingPath.signIn)}>signIn</span>
-            {displayeOrSignin()}
 
 
 
