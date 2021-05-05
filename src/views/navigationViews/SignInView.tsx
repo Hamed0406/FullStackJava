@@ -19,7 +19,7 @@ export const SignInView = () => {
         <div>
 
             <span>UserName : </span>
-            <input onChange={event => setUsername(event.target.value)} /> <br/>
+            <input onChange={event => setAuthenticatorUser(event.target.value)} /> <br/>
             <button onClick={() => signin()}> singin </button>
 
         </div>

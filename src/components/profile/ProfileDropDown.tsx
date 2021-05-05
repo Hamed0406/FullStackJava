@@ -23,7 +23,7 @@ history.push(RouttingPath.signIn)
             <hr/>
             <span onClick={()=> history.push(RouttingPath.profileView)}>Profile</span> <br/>
             <span onClick={()=> history.push(RouttingPath.settingView)}>Setting</span> <br/>
-            <span onClick={()=>logOut} >Log out</span>
+            <span onClick={()=>logOut()} >Log out</span>
         </div>
     )
 }
