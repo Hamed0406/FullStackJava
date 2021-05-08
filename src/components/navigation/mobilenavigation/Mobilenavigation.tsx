@@ -1,9 +1,14 @@
 import  './Mobilenavigation.css'
+import {HamburgerButton}  from './hamburgerButton/HamburgerButton'
+import  {Sidebar} from './sidebar/Sidebar'
+import {useState} from  'react'
 
 export const Mobilenavigation = () =>  {
+    const [openDrawer,setOpenDrawer]=useState<boolean>(true)
     return (
         <div>
-            <h1>From mobile</h1>
+        <HamburgerButton drawerHandeler={setOpenDrawer} />
+        <Sidebar drawerIsOpen={openDrawer} drawerHandeler={setOpenDrawer} />
         </div>
     )
 }
