@@ -1,19 +1,27 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
+import { UserContext } from '../../shared/provider/UserProvider'
+import { useHistory } from 'react-router-dom'
+import RouttingPath from '../../routes/RouttingPath'
 
 export const SignInView = () => {
-    const [userName, setUserName] = useState<String>('')
-    const [password,setPassword]=useState<String>('')
+    const [username,setUsername]=useState<string>('')
+    const history = useHistory()
+    const [authenticatorUser, setAuthenticatorUser] = useContext(UserContext)
+    const signin = () => {
+        setAuthenticatorUser(username)
+
+        localStorage.setItem('username', authenticatorUser)
+        history.push(RouttingPath.gallery)
+
+    }
 
     return (
         <div>
-            <h1>{userName}</h1>
-            <h1>{password}</h1>
-            <span>UserName : </span>
-            <input onChange={event=> setUserName(event.target.value)} /><br/>
-            <span>Password</span>           
-             <input  onChange={event=> setPassword(event.target.value)} /><br/>
 
-            <button onClick={() => setUserName('Login Sucessful ! ')} >Login</button>
+            <span>UserName : </span>
+            <input onChange={event => setAuthenticatorUser(event.target.value)} /> <br/>
+            <button onClick={() => signin()}> singin </button>
+
         </div>
     )
 }
