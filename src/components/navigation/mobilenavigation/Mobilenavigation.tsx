@@ -1,4 +1,4 @@
-import  './mobilenavigation.css'
+import  './Mobilenavigation.css'
 
 export const Mobilenavigation = () =>  {
     return (
