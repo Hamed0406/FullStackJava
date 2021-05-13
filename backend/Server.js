@@ -2,18 +2,22 @@ import express from 'express'
 import morgan from 'morgan'
 import dotenv from 'dotenv'
 import mongoose from 'mongoose'
+import UserRoute from './src/routes/User.Route.js'
 
 dotenv.config()
 const {PORT}=process.env
 
 const application=express()
+application.use(express.json())
 application.use(morgan('common'))
-
+//
 
 application.get('/order',(request,response)=>
 {
     response.send('Order is created :'+Math.random())
 }) 
+
+UserRoute.routes(application)
 
 const notFound=(request,response,next)=>{
     const error=new Error(`Not Found: ${request.orgnilaUrl}`)
