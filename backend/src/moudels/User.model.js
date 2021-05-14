@@ -3,16 +3,17 @@ import mongoose from 'mongoose'
 const {Schema}=mongoose
 
 const userSchema=Schema({
+
     username: {
         type:String,
-        unique : true,
+        unique:true,
         allowNull:false,
         require:true,
         lowercase: true,
         minlength: [5,'User name most be atleast 5 characters.']
 
     },
-    password : {
+    password: {
         type:String,
         allowNull:false,
         require:true
