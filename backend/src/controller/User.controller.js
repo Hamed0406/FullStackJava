@@ -47,8 +47,22 @@ const getUserById=async (request,response)=> {
     }
 
 
+    const deleteUserById=async (request,response)=> {
+        try
+        {
+            const databaseResponse=await UserModel.findByIdAndDelete({_id:request.params.userId})
+            response.status(StatusCode.OK).send(databaseResponse)
+        }
+        catch(error)
+        {
+        response.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
+        }
+        
+        }
+
 export default {
     createUser,
     getAllUsers,
-    getUserById
+    getUserById,
+    deleteUserById
 }
