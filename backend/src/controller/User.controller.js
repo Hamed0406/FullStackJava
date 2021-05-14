@@ -68,7 +68,7 @@ const getUserById=async (request,response)=> {
             }
             try
             {
-                const databaseResponse=await UserModel.find(request.params.userId,{data})
+                const databaseResponse=await UserModel.findOneAndUpdate(request.params.userId,data)
                 response.status(StatusCode.OK).send(databaseResponse)
             }
             catch(error)
