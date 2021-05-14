@@ -60,9 +60,28 @@ const getUserById=async (request,response)=> {
         
         }
 
+        const updateUser=async (request,response)=> {
+            const data={
+                username:request.body.username,
+                password: request.body.password
+
+            }
+            try
+            {
+                const databaseResponse=await UserModel.find(request.params.userId,{data})
+                response.status(StatusCode.OK).send(databaseResponse)
+            }
+            catch(error)
+            {
+            response.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
+            }
+            
+            }
+
 export default {
     createUser,
     getAllUsers,
     getUserById,
-    deleteUserById
+    deleteUserById,
+    updateUser
 }
