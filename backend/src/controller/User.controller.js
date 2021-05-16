@@ -78,10 +78,28 @@ const getUserById=async (request,response)=> {
             
             }
 
+
+            const getUserByQuery=async (request,response)=> {
+                
+                try
+                {
+                    const databaseResponse=await UserModel.find({username:request.query.username})
+                    response.status(StatusCode.OK).send(databaseResponse)
+                }
+                catch(error)
+                {
+                response.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
+                }
+                
+                }
+    
+    
+
 export default {
     createUser,
     getAllUsers,
     getUserById,
     deleteUserById,
-    updateUser
+    updateUser,
+    getUserByQuery
 }
