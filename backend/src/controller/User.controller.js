@@ -84,7 +84,10 @@ const getUserById=async (request,response)=> {
                 try
                 {
                     const databaseResponse=await UserModel.find({username:request.query.username})
-                    response.status(StatusCode.OK).send(databaseResponse)
+                    databaseResponse.length !=0 
+                    ? response.status(StatusCode.OK).send(databaseResponse)
+                    : response.status(StatusCode.NOT_FOUND).send({message: `Could not find user : ${request.query.username}` })
+
                 }
                 catch(error)
                 {
