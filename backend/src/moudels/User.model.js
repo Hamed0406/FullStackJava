@@ -18,7 +18,7 @@ const userSchema=Schema({
         allowNull:false,
         require:true
     }
-})
+},{timestamps:true})
 
 const UserModel=mongoose.model('user',userSchema)
 export default UserModel

@@ -14,3 +14,5 @@ UserRoute.routes(application)
 application.use(Midelwares.notFound)
 Configoration.connectToPort(application)
 Configoration.connetToDB()
+
+export default application
