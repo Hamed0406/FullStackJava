@@ -13,6 +13,7 @@
   "author": "h.adeli.meadeli@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "helmet": "^4.6.0",

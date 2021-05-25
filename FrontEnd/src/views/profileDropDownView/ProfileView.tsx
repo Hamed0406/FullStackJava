@@ -8,9 +8,17 @@ const {data}= await MyAPIServies.getAllUsers()
 setserverResponse(data)
 console.log(data)
     }
+
+const displayData=()=>{
+    return (
+        serverResponse.map((x:any)=><h1>{x.username}</h1>)
+    )
+}
+
     return (
         <div>
             <button onClick={()=>fetchData()}>Make call to backEnd</button>
+      {displayData()}
         </div>
     )
 }
