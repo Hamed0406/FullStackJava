@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/FullStackJava/FrontEnd/static/css/main.03e152e2.chunk.css",
-    "main.js": "/FullStackJava/FrontEnd/static/js/main.33fac5da.chunk.js",
-    "main.js.map": "/FullStackJava/FrontEnd/static/js/main.33fac5da.chunk.js.map",
-    "runtime-main.js": "/FullStackJava/FrontEnd/static/js/runtime-main.6088a54a.js",
-    "runtime-main.js.map": "/FullStackJava/FrontEnd/static/js/runtime-main.6088a54a.js.map",
-    "static/js/2.c1f26215.chunk.js": "/FullStackJava/FrontEnd/static/js/2.c1f26215.chunk.js",
-    "static/js/2.c1f26215.chunk.js.map": "/FullStackJava/FrontEnd/static/js/2.c1f26215.chunk.js.map",
-    "static/js/3.512de68c.chunk.js": "/FullStackJava/FrontEnd/static/js/3.512de68c.chunk.js",
-    "static/js/3.512de68c.chunk.js.map": "/FullStackJava/FrontEnd/static/js/3.512de68c.chunk.js.map",
-    "index.html": "/FullStackJava/FrontEnd/index.html",
-    "static/css/main.03e152e2.chunk.css.map": "/FullStackJava/FrontEnd/static/css/main.03e152e2.chunk.css.map",
-    "static/js/2.c1f26215.chunk.js.LICENSE.txt": "/FullStackJava/FrontEnd/static/js/2.c1f26215.chunk.js.LICENSE.txt",
-    "static/media/Desktopnavigation.css": "/FullStackJava/FrontEnd/static/media/body_M.70ad3a3f.jpg",
-    "static/media/undraw_cooking_lyxy.cf36b9b8.svg": "/FullStackJava/FrontEnd/static/media/undraw_cooking_lyxy.cf36b9b8.svg"
+    "main.css": "/FullStackJava/static/css/main.23735f63.chunk.css",
+    "main.js": "/FullStackJava/static/js/main.33fac5da.chunk.js",
+    "main.js.map": "/FullStackJava/static/js/main.33fac5da.chunk.js.map",
+    "runtime-main.js": "/FullStackJava/static/js/runtime-main.5bf7629d.js",
+    "runtime-main.js.map": "/FullStackJava/static/js/runtime-main.5bf7629d.js.map",
+    "static/js/2.c1f26215.chunk.js": "/FullStackJava/static/js/2.c1f26215.chunk.js",
+    "static/js/2.c1f26215.chunk.js.map": "/FullStackJava/static/js/2.c1f26215.chunk.js.map",
+    "static/js/3.512de68c.chunk.js": "/FullStackJava/static/js/3.512de68c.chunk.js",
+    "static/js/3.512de68c.chunk.js.map": "/FullStackJava/static/js/3.512de68c.chunk.js.map",
+    "index.html": "/FullStackJava/index.html",
+    "static/css/main.23735f63.chunk.css.map": "/FullStackJava/static/css/main.23735f63.chunk.css.map",
+    "static/js/2.c1f26215.chunk.js.LICENSE.txt": "/FullStackJava/static/js/2.c1f26215.chunk.js.LICENSE.txt",
+    "static/media/Desktopnavigation.css": "/FullStackJava/static/media/body_M.70ad3a3f.jpg",
+    "static/media/undraw_cooking_lyxy.cf36b9b8.svg": "/FullStackJava/static/media/undraw_cooking_lyxy.cf36b9b8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6088a54a.js",
+    "static/js/runtime-main.5bf7629d.js",
     "static/js/2.c1f26215.chunk.js",
-    "static/css/main.03e152e2.chunk.css",
+    "static/css/main.23735f63.chunk.css",
     "static/js/main.33fac5da.chunk.js"
   ]
 }
