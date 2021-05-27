@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FullStackJava/static/css/main.23735f63.chunk.css",
-    "main.js": "/FullStackJava/static/js/main.33fac5da.chunk.js",
-    "main.js.map": "/FullStackJava/static/js/main.33fac5da.chunk.js.map",
+    "main.js": "/FullStackJava/static/js/main.f6677dd9.chunk.js",
+    "main.js.map": "/FullStackJava/static/js/main.f6677dd9.chunk.js.map",
     "runtime-main.js": "/FullStackJava/static/js/runtime-main.5bf7629d.js",
     "runtime-main.js.map": "/FullStackJava/static/js/runtime-main.5bf7629d.js.map",
     "static/js/2.c1f26215.chunk.js": "/FullStackJava/static/js/2.c1f26215.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.5bf7629d.js",
     "static/js/2.c1f26215.chunk.js",
     "static/css/main.23735f63.chunk.css",
-    "static/js/main.33fac5da.chunk.js"
+    "static/js/main.f6677dd9.chunk.js"
   ]
 }
